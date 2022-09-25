@@ -10,11 +10,11 @@ public class exercise0{
         bag1.keepThingsSafe();
         bag2.keepThingsTogether();
         bag3.easyAccessToThings();
-        //Instantiate objects from `human` class
+        //Instantiate objects from `Human` class
         Human human1 = new Human("Indian");
         Human human2 = new Human("American");
         Human human3 = new Human("Australian");
-        //Calling methods from `human` class
+        //Calling methods from `Human` class
         human1.talk();
         human2.walk();
         human3.work();
