@@ -12,18 +12,19 @@ public class Fruit {
     String name;
 
     //Constructor
-    public Fruit(String name){
-        System.out.println("Created instance: " +UUID.randomUUID().toString() + " of " +name + " fruit for Fruit class.");
+    public Fruit(String fruitName){
+        name = fruitName;
+        System.out.println("Created instance: " +UUID.randomUUID().toString() + " of " +name + " fruit for `Fruit` class.");
     }
     
     //Methods
     void grow(){
-        System.out.println("This is grow() method output for Fruit class.");
+        System.out.println("This is `grow()` method output for `Fruit` class.");
     }
     void benefitHealth(){
-        System.out.println("This is benefitHealth() method output for Fruit class.");
+        System.out.println("This is `benefitHealth()` method output for `Fruit` class.");
     }
     void ripe(){
-        System.out.println("This is ripe() method output for Fruit class.");
+        System.out.println("This is `ripe()` method output for `Fruit` class.");
     }
 }
