@@ -6,10 +6,10 @@ public class Backpack {
     int number_of_compartments;
     double cost;
     int capacity;
-    String waterproof; //Yes or No
+    Boolean waterproof; //Yes or No
     String material;
     String brand;
-    String waterresistant; //Yes or No
+    Boolean waterresistant; //Yes or No
     
     //Constructor
     Backpack(String bagColor){

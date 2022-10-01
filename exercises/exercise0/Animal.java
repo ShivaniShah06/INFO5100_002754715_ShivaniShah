@@ -7,9 +7,9 @@ public class Animal {
     String numberoflegs;
     String color;
     String breed; //Normal or hybrid
-    String couldpet; //Yes or No
-    String friendly; //Yes or No
-    String hasfangs; //Yes or No
+    Boolean couldpet; //Yes or No
+    Boolean friendly; //Yes or No
+    Boolean hasfangs; //Yes or No
 
     //Constructor
     public Animal(String Animalname){

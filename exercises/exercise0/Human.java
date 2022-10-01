@@ -9,7 +9,7 @@ public class Human {
     int age;
     String haircolor;
     String nationality;
-    String birthmark; //Yes or No
+    Boolean birthmark; //Yes or No
 
     //Constructor
     public Human(String humanNationality){
