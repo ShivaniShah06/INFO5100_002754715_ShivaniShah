@@ -1,0 +1,1 @@
+Run SerializationMainClass.java before running DeserializationMainClass.java since serialization needs to be done before in order to deserialize objects.
