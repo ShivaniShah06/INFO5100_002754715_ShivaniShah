@@ -1,7 +1,6 @@
-public class exercise0{
-
+public class Exercise0 {
     public static void main(String[] args){
-
+ 
         System.out.println("===== Output for Class 1 =====\n");
         //Instantiate objects from `Backpack` class
         Backpack bag1 = new Backpack("Red");
@@ -100,6 +99,7 @@ public class exercise0{
         sofa1.letsUsRest();
         sofa2.letsUsSleep();
         sofa3.provideComfort();
-
+ 
     }
+
 }

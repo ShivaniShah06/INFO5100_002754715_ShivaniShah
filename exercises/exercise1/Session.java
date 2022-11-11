@@ -2,10 +2,10 @@ package exercises.exercise1;
 import java.util.Arrays;
 
 public class Session {
-    double averageScore;
-    double sum = 0;
-    double average;
-    double[] quizScores;
+    public double averageScore;
+    public double sum = 0;
+    public double average;
+    public double[] quizScores;
     //Array to store students
     String[] student = new String[20];
     
