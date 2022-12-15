@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><BookShelf>
+   <Book serialno="1">
+      <title>Five Point Someone</title>
+      <publishedYear>2004</publishedYear>
+      <numberOfPages>270</numberOfPages>
+      <authors>Chetan Bhagat</authors>
+   </Book>
+
+   <Book serialno="2">
+      <title>The Alchemist</title>
+      <publishedYear>1988</publishedYear>
+      <numberOfPages>163</numberOfPages>
+      <authors>Paulo Coelho</authors>
+   </Book>
+    
+   <Book serialno="3">
+      <title>The Great Gatsby</title>
+      <publishedYear>1925</publishedYear>
+      <numberOfPages>208</numberOfPages>
+      <authors>F. Scott Fitzgerald</authors>
+   </Book>
+<Book serialno="4"><title>Da Vinci Code</title><publishedYear>2003</publishedYear><numberOfPages>689</numberOfPages><authors>Dan Brown</authors></Book></BookShelf>

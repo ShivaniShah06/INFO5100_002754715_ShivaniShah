@@ -1,0 +1,32 @@
+{
+    "bookshelf": [
+        {
+            "Book": [
+                {
+                    "numberOfPages": "270",
+                    "publishedYear": "2004",
+                    "title": "Five Point Someone",
+                    "authors": "Chetan Bhagat"
+                },
+                {
+                    "numberOfPages": "163",
+                    "publishedYear": "1988",
+                    "title": "The Alchemist",
+                    "authors": "Paulo Coelho"
+                },
+                {
+                    "numberOfPages": "208",
+                    "publishedYear": "1925",
+                    "title": "The Great Gatsby",
+                    "authors": "F. Scott Fitzgerald"
+                },
+                {
+                    "publishedYear": "1999",
+                    "numberOfPages": "256",
+                    "title": "The Perks Of Being a Wallflower",
+                    "authors": "Stephen Chbosky"
+                }
+            ]
+        }
+    ]
+}

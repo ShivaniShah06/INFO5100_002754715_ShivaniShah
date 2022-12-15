@@ -1,7 +1,9 @@
+package exercises.exercise0;
+
 import java.util.UUID;
 
 public class Sofa {
-    //Instance Variables or Properties
+    // Instance Variables or Properties
     String coverMaterial;
     Boolean Recliner;
     double size;
@@ -11,22 +13,23 @@ public class Sofa {
     String color;
     double cost;
 
-    //Constructor
-    public Sofa(double sofaCost){
+    // Constructor
+    public Sofa(double sofaCost) {
         cost = sofaCost;
-        System.out.println("Created an instance: " +UUID.randomUUID().toString() + " of `Sofa` class which costs $" +cost+ ".");
+        System.out.println(
+                "Created an instance: " + UUID.randomUUID().toString() + " of `Sofa` class which costs $" + cost + ".");
     }
 
-    //Methods
-    void letsUsRest(){
+    // Methods
+    void letsUsRest() {
         System.out.println("This is `letsUsRest()` method output of `Sofa` class.");
     }
 
-    void letsUsSleep(){
+    void letsUsSleep() {
         System.out.println("This is `letsUsSleep()` method output of `Sofa` class.");
     }
 
-    void provideComfort(){
+    void provideComfort() {
         System.out.println("This is `provideComfort()` method output of `Sofa` class.");
     }
 }

@@ -1,7 +1,9 @@
+package exercises.exercise0;
+
 import java.util.UUID;
 
 public class Table {
-    //Instance Variable or Properties
+    // Instance Variable or Properties
     int width;
     int height;
     int length;
@@ -11,22 +13,23 @@ public class Table {
     Boolean portable;
     String color;
 
-    //Constructor
-    public Table(String tableBrand){
+    // Constructor
+    public Table(String tableBrand) {
         brand = tableBrand;
-        System.out.println("Created an instance: " +UUID.randomUUID().toString() + " for `Table` class with " +brand + " brand.");
+        System.out.println("Created an instance: " + UUID.randomUUID().toString() + " for `Table` class with " + brand
+                + " brand.");
     }
 
-    //Methods
-    void provideComfort(){
+    // Methods
+    void provideComfort() {
         System.out.println("This is `provideComfort()` method output for `Table` class.");
     }
 
-    void keepThingsOrganized(){
+    void keepThingsOrganized() {
         System.out.println("This is `keepThingsOrganized()` method output for `Table` class.");
     }
 
-    void provideStorage(){
+    void provideStorage() {
         System.out.println("This is `provideStorage()` method output for `Table` class.");
     }
 }

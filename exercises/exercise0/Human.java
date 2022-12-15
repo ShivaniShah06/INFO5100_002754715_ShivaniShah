@@ -1,7 +1,9 @@
+package exercises.exercise0;
+
 import java.util.UUID;
 
 public class Human {
-    //Instance Variables or Properties
+    // Instance Variables or Properties
     String eyecolor;
     float height;
     float weight;
@@ -9,22 +11,25 @@ public class Human {
     int age;
     String haircolor;
     String nationality;
-    Boolean birthmark; //Yes or No
+    Boolean birthmark; // Yes or No
 
-    //Constructor
-    public Human(String humanNationality){
+    // Constructor
+    public Human(String humanNationality) {
         nationality = humanNationality;
-        System.out.println("Created an instance: " +UUID.randomUUID().toString() + " for `Human` class with " +nationality + " nationality.");
+        System.out.println("Created an instance: " + UUID.randomUUID().toString() + " for `Human` class with "
+                + nationality + " nationality.");
     }
 
-    //Methods
-    void talk(){
+    // Methods
+    void talk() {
         System.out.println("This is `talk()` method output for `Human` class.");
     }
-    void walk(){
+
+    void walk() {
         System.out.println("This is `walk()` method output for `Human` class.");
     }
-    void work(){
+
+    void work() {
         System.out.println("This is `work()` method output for `Human` class.");
     }
 }

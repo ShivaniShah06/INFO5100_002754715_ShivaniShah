@@ -1,30 +1,35 @@
+package exercises.exercise0;
+
 import java.util.UUID;
 
 public class Animal {
-    //Instance Variables or Properties
-    String name; //Dog, Cat, Cow, etc
-    String type; //Herbivorous, Carnivorous or Omnivorous
+    // Instance Variables or Properties
+    String name; // Dog, Cat, Cow, etc
+    String type; // Herbivorous, Carnivorous or Omnivorous
     String numberoflegs;
     String color;
-    String breed; //Normal or hybrid
-    Boolean couldpet; //Yes or No
-    Boolean friendly; //Yes or No
-    Boolean hasfangs; //Yes or No
+    String breed; // Normal or hybrid
+    Boolean couldpet; // Yes or No
+    Boolean friendly; // Yes or No
+    Boolean hasfangs; // Yes or No
 
-    //Constructor
-    public Animal(String Animalname){
+    // Constructor
+    public Animal(String Animalname) {
         name = Animalname;
-        System.out.println("Created instance: " +UUID.randomUUID().toString() + " of " +name + " for `Animal` class.");
+        System.out
+                .println("Created instance: " + UUID.randomUUID().toString() + " of " + name + " for `Animal` class.");
     }
 
-    //Methods
-    void speak(){
+    // Methods
+    void speak() {
         System.out.println("This is `speak()` method output for `Animal` class.");
     }
-    void eat(){
+
+    void eat() {
         System.out.println("This is `eat()` method output for `Animal` class.");
     }
-    void sleep(){
+
+    void sleep() {
         System.out.println("This is `sleep()` method output for `Animal` class.");
     }
 }

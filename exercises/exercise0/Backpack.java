@@ -1,30 +1,36 @@
+package exercises.exercise0;
+
 import java.util.UUID;
 
 public class Backpack {
-    //Instance Variables or Properties
+    // Instance Variables or Properties
     String color;
     int number_of_compartments;
     double cost;
     int capacity;
-    Boolean waterproof; //Yes or No
+    Boolean waterproof; // Yes or No
     String material;
     String brand;
-    Boolean waterresistant; //Yes or No
-    
-    //Constructor
-    Backpack(String bagColor){
+    Boolean waterresistant; // Yes or No
+
+    // Constructor
+    Backpack(String bagColor) {
         color = bagColor;
-        System.out.println("Created instance: " +UUID.randomUUID().toString() + " of `Backpack` class with " +bagColor + " color.");
-        
+        System.out.println("Created instance: " + UUID.randomUUID().toString() + " of `Backpack` class with " + bagColor
+                + " color.");
+
     }
-    //Methods
-    void keepThingsSafe(){
+
+    // Methods
+    void keepThingsSafe() {
         System.out.println("This is `keepThingsSafe()` method output for Backpack class.");
     }
-    void keepThingsTogether(){
+
+    void keepThingsTogether() {
         System.out.println("This is `keepThingsTogether()` method output for Backpack class.");
     }
-    void easyAccessToThings(){
+
+    void easyAccessToThings() {
         System.out.println("This is `easyAccessToThings()` method output for Backpack class.");
     }
 }

@@ -9,8 +9,7 @@ public class Exercise2 {
         System.out.println(Shape.getShape()); //Accessing value of static field shape
         rectangle.calculateArea(); //Accessing class-implemented inherited abstract method
         rectangle.calculatePerimeter(); //Using the inherited method from Shapes class - Not overriding
-       
-       
+        
         //Instantiate object of class Circle using Polymorphism concept
         Shape circle = new Circle(8.0);
         System.out.println("\n----- Output for Circle -----\n");

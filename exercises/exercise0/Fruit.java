@@ -1,7 +1,9 @@
+package exercises.exercise0;
+
 import java.util.UUID;
 
 public class Fruit {
-    //Instance Variables or Properties
+    // Instance Variables or Properties
     String shape;
     String taste;
     float weight;
@@ -11,20 +13,23 @@ public class Fruit {
     int cost;
     String name;
 
-    //Constructor
-    public Fruit(String fruitName){
+    // Constructor
+    public Fruit(String fruitName) {
         name = fruitName;
-        System.out.println("Created instance: " +UUID.randomUUID().toString() + " of " +name + " fruit for `Fruit` class.");
+        System.out.println(
+                "Created instance: " + UUID.randomUUID().toString() + " of " + name + " fruit for `Fruit` class.");
     }
-    
-    //Methods
-    void grow(){
+
+    // Methods
+    void grow() {
         System.out.println("This is `grow()` method output for `Fruit` class.");
     }
-    void benefitHealth(){
+
+    void benefitHealth() {
         System.out.println("This is `benefitHealth()` method output for `Fruit` class.");
     }
-    void ripe(){
+
+    void ripe() {
         System.out.println("This is `ripe()` method output for `Fruit` class.");
     }
 }
